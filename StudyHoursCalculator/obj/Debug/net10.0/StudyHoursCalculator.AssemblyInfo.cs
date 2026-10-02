@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudyHoursCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00a93d2ab454c65a9dee3e8978b692bf7c133ae3")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudyHoursCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudyHoursCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
