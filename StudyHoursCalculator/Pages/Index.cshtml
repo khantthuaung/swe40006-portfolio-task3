@@ -1,0 +1,68 @@
+﻿@page
+@model IndexModel
+
+@{
+    ViewData["Title"] = "Study Hours Calculator";
+}
+
+<div class="container py-5" style="max-width: 650px;">
+    <h1 class="mb-3">Study Hours Calculator</h1>
+    <p class="text-muted">
+        Plan your study time by calculating your total study hours.
+    </p>
+
+    <form method="post" class="card card-body shadow-sm">
+        <div asp-validation-summary="ModelOnly"
+             class="text-danger"></div>
+
+        <div class="mb-3">
+            <label asp-for="HoursPerDay" class="form-label"></label>
+            <input asp-for="HoursPerDay"
+                   class="form-control"
+                   type="number"
+                   min="0"
+                   max="24"
+                   step="0.25"
+                   placeholder="For example, 2.5" />
+            <span asp-validation-for="HoursPerDay"
+                  class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Days" class="form-label"></label>
+            <input asp-for="Days"
+                   class="form-control"
+                   type="number"
+                   min="1"
+                   max="365"
+                   step="1"
+                   placeholder="For example, 5" />
+            <span asp-validation-for="Days"
+                  class="text-danger"></span>
+        </div>
+
+        <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-primary">
+                Calculate
+            </button>
+            <a asp-page="/Index" class="btn btn-outline-secondary">
+                Reset
+            </a>
+        </div>
+    </form>
+
+    @if (Model.TotalHours.HasValue)
+    {
+        <div class="alert alert-success mt-4" role="status">
+            <h2 class="h5">Your study plan</h2>
+            <p class="mb-0">
+                @Model.HoursPerDay hours per day × @Model.Days days =
+                <strong>@Model.TotalHours.Value.ToString("0.##") total hours</strong>.
+            </p>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,7 @@
+/Users/khantthuaung/Documents/AUG2026/SWE40006(SDE)/Portfolios/Task3/StudyHoursCalculator/bin/Publish/StudyHoursCalculator
+/Users/khantthuaung/Documents/AUG2026/SWE40006(SDE)/Portfolios/Task3/StudyHoursCalculator/bin/Publish/appsettings.Development.json
+/Users/khantthuaung/Documents/AUG2026/SWE40006(SDE)/Portfolios/Task3/StudyHoursCalculator/bin/Publish/appsettings.json
+/Users/khantthuaung/Documents/AUG2026/SWE40006(SDE)/Portfolios/Task3/StudyHoursCalculator/bin/Publish/StudyHoursCalculator.dll
+/Users/khantthuaung/Documents/AUG2026/SWE40006(SDE)/Portfolios/Task3/StudyHoursCalculator/bin/Publish/StudyHoursCalculator.deps.json
+/Users/khantthuaung/Documents/AUG2026/SWE40006(SDE)/Portfolios/Task3/StudyHoursCalculator/bin/Publish/StudyHoursCalculator.runtimeconfig.json
+/Users/khantthuaung/Documents/AUG2026/SWE40006(SDE)/Portfolios/Task3/StudyHoursCalculator/bin/Publish/StudyHoursCalculator.pdb
